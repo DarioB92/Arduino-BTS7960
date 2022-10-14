@@ -37,7 +37,7 @@ void loop()
   
   for(int speed = 255 ; speed > 0; speed-=10)
   {
-	motorController.TurnLeft(speed);
+	motorController.TurnRight(speed);
 	delay(100);
   }  
   motorController.Stop();
