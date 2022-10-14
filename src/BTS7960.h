@@ -22,8 +22,8 @@ class BTS7960
     void Enable();
     void Disable();
 
-	void TurnLeft(uint8_t pwm);
-	void TurnRight(uint8_t pwm);
+	void TurnLeft(uint16_t pwm);
+	void TurnRight(uint16_t pwm);
 	void Stop();
 
   private:
